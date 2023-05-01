@@ -248,3 +248,8 @@ document.addEventListener("click", (e) => {
     }
   }
 });
+// Contact Us Submit Stop Function
+let contactBtn = document.querySelector(".contact form .right input");
+contactBtn.onclick = (e) => {
+  e.preventDefault();
+};

@@ -830,6 +830,7 @@ body {
   color: white;
   border: none;
   height: 40px;
+  cursor: pointer;
 }
 .contact form input:focus,
 .contact form textarea:focus {

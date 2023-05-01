@@ -21,8 +21,8 @@ function randomizeImgs() {
   if (backgroundOption == true) {
     backgroundInterval = setInterval(() => {
       let randomIndex = Math.floor(Math.random() * imgsArray.length);
-      localStorage.setItem("current_img", "url(../imgs/" + imgsArray[randomIndex] + ")");
-      landingPage.style.backgroundImage = "url(../imgs/" + imgsArray[randomIndex] + ")";
+      localStorage.setItem("current_img", "url(imgs/" + imgsArray[randomIndex] + ")");
+      landingPage.style.backgroundImage = "url(imgs/" + imgsArray[randomIndex] + ")";
     }, 10000);
   }
 }

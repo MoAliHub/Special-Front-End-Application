@@ -216,7 +216,7 @@ body {
   background-image: url(../imgs/1.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 .landing-page .overlay {
   position: absolute;
